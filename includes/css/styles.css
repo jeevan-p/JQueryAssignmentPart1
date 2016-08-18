@@ -1,0 +1,514 @@
+/*
+
+My Custom CSS
+=============
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .lead small
+   {
+      font-size: 14px;
+   }
+
+   body
+   {      
+      background: url(../../images/sea_medium.jpg) top center no-repeat;
+   }
+
+   .panel
+   {
+      text-align: center;
+   }
+   .panel p
+   {
+      margin-top: 40px;
+      font-size: 18px;
+   }
+   .itop img
+   {
+      height: 200px;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar-form .commtexts
+   {
+      width: 100%;
+   }
+
+   navsrch
+   {
+      width: 300px;
+      height: 30px;
+   }
+   .mymainlogo
+   {
+      max-width: 245px;
+      overflow: hidden;
+      padding: 0px;
+   }
+
+   .logoheader
+   {      
+      height: 80px;
+   }
+
+   .clr
+   {
+      color: darkgrey;
+   }
+
+   #searchme
+   {
+      margin-top: 145px;      
+   }
+
+   .mylogo
+   {
+      padding: 0px; 
+   }
+
+/* --------------------------------------
+   Search Me
+   -------------------------------------- */   
+   .formbut
+   {
+      padding-top: 10px;
+   }
+
+   .formtxt input
+   {
+      height: 40px;
+      width: 500px;
+      font-size: 20px;
+      display: initial;
+   }
+
+
+/* --------------------------------------
+   search Result
+   -------------------------------------- */
+   #movielist
+   {
+      padding: 0px;
+   }
+
+   .post
+   {
+      height: 200px;
+      width: 135px;
+   }
+
+   .movie-li
+   {
+      height: 220px;
+      list-style: none;
+      background: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+
+   .search-li
+   {
+      height: 80px;      
+      list-style: none;
+      background: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+
+   .movHead
+   {
+      padding-bottom: 17px;
+   }
+
+   .mytypepara
+   {
+      padding-left: 30px;
+   }
+
+   .pull-left
+   {
+      float:left;
+   }
+
+   .pull-right
+   {
+      text-align: right;
+   }
+
+   .put-left
+   {
+      float: left;
+      text-align: right;
+   }
+
+   .halfsize
+   {
+      width: 50%;
+   }
+   /*.modelht
+   {
+      min-height: 400px;
+   }*/
+   .modallen
+   {
+      width: 80%;      
+   }
+   .myModalContainer
+   {
+      width: 100%;
+   }
+   .myModalContainer img
+   {
+      height : 300px;
+   }
+   .posterDetails
+   {
+      float:left;
+      width: 40%;
+   }
+   .movieDetails
+   {
+      padding-top: 5px;
+      
+      
+      padding-left: 0px;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #hero
+   {
+      margin-bottom: 20px; 
+   }
+
+   #myCarl .item
+   {
+      height: 500px;
+      width: 100%;
+   }
+
+   .carousel-caption h3
+   {      
+      text-shadow: 5px 5px 20px black;
+   }
+
+   #slide1
+   {
+      background: url(../../images/carousel1_medium.jpg) top center no-repeat; 
+   }
+   #slide2
+   {
+      background: url(../../images/carousel2_medium.jpg) top center no-repeat; 
+   }
+   #slide3
+   {
+      background: url(../../images/carousel3_medium.jpg) top center no-repeat; 
+   }
+
+/* --------------------------------------
+   Interestin Topics
+   -------------------------------------- */
+   .topimages
+   {
+      padding-top: 20px;
+   }
+
+   .topsections
+   {
+      text-align: center;
+   }
+
+   .topsections img
+   {
+      height: 250px;
+   }
+
+   .itop a
+   {
+      color: black;
+   }
+
+   #TopSearches .container
+   {
+      background: #eee;
+      padding-bottom: 15px;
+   }
+
+   /* --------------------------------------
+   About us
+   -------------------------------------- */
+   .entname,.entmail,.entcomm,.entbut
+   {
+      margin: 10px 0px 0px;
+      width: 100%; 
+   }
+
+   #tab1 img,#modaltab1 img
+   {
+      height: 100px;
+   }
+
+   .mytabs
+   {
+      margin-bottom: 30px;
+   }
+
+   .webr
+   {
+      height: 80px;
+   }
+
+   .morsit
+   {
+      height: 40px;
+      padding: 0px;
+   }
+
+   .list-group
+   {
+      text-align: center;
+   }
+
+   #tab3 form
+   {
+      text-align: center;
+   }
+
+   #tab3 form
+   {
+      text-align: center;
+   }
+
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+   footer
+   {
+      background: #333;
+      color: white;
+      padding: 20px;
+   }
+
+   .socimg
+   {
+      height: 20px;
+   }
+
+   .foot1
+   {
+      text-align: left;
+   }
+
+   .foot2
+   {
+      text-align: right;
+   }
+
+   .foot3
+   {
+      text-align: center;
+      margin-top: 30px;      
+   }
+
+   .foot4
+   {
+      text-align: center;
+   }
+
+   .foot1 ul
+   {
+      padding-left: 20px;
+   }
+
+   .foot1 ul li
+   {
+      display: inline;
+      padding-right: 30px;
+   }
+
+   /* Modal */
+   .lst
+   {
+      padding-right: 0px;
+   }
+
+   footer .modal
+   {
+      color: black;
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   p
+   {
+      font-family: 'Droid Sans', sans-serif;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 610px) {
+ 
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+   .modallen
+   {
+      width: 100%;      
+   }
+
+   .navbar-form
+   {
+      width: 100%;
+   }
+
+   body /* Background Image Sea */
+   {
+      background: url(../../images/sea_small.jpg) top center no-repeat;
+   }
+   
+   .navsrch /* Search box in Nav Bar */
+   {
+      float: left;
+      width: 200px;
+      height: 30px;
+
+   }
+
+   .formtxt input /* Main Search box */
+   {      
+      height: 40px;
+      width: 270px;
+      font-size: 15px;
+   }
+
+   #myCarl .item /* Carousal Height when small */
+   {
+      height: 310px;
+   }
+
+   #slide1 /* carousal Small Image one */
+   {
+      background: url(../../images/carousel1_small.jpg) top center no-repeat; 
+   }
+   #slide2 /* carousal Small Image two */
+   {
+      background: url(../../images/carousel2_small.jpg) top center no-repeat; 
+   }
+   #slide3 /* carousal Small Image three */
+   {
+      background: url(../../images/carousel3_small.jpg) top center no-repeat; 
+   }
+   .carousel-caption h3 /* carousal Small Caption */
+   {      
+      text-shadow: 5px 5px 20px black;
+      font-size: 20px;
+   }
+   .itop img /* Interesting Topic Image */
+   {
+      height: 200px;
+   }
+
+   .topsections img /* Top Searches Image */
+   {
+      height: 285px;
+   }
+
+   .webr /* Related Website Image */
+   {
+      height: 60px;
+   }
+
+   .relwebhead /* Related Websites Header */
+   {
+      margin-top:30px;
+   }
+
+   .mycollapse
+   {
+      overflow: hidden;
+   }
+
+   .menuitem
+   {
+      padding-left: 20px;
+   }
+
+   .navbar-nav .open .dropdown-menu /*Drop down menu styling*/
+   {
+      border: 1px solid rgba(0,0,0,.15);
+      box-shadow: 0 6px 12px rgba(0,0,0,.175);
+   }
+
+   .mm .nav
+   {
+      width: 40%;
+   }
+
+   #searchme
+   {
+      margin-top: 90px;      
+   }
+   .myModalContainer img
+   {
+      height : 150px;
+   }
+     	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   body
+   {
+      background: url(../../images/sea_large.jpg) top center no-repeat;
+   }	
+
+   #myCarl .item  /* Carousal height */
+   {
+      height: 600px;
+   }
+
+   #slide1 /* carousal Large Image one */
+   {
+      background: url(../../images/carousel1_large.jpg) top center no-repeat; 
+   }
+   #slide2 /* carousal Large Image two */
+   {
+      background: url(../../images/carousel2_large.jpg) top center no-repeat; 
+   }
+   #slide3 /* carousal Large Image three */
+   {
+      background: url(../../images/carousel3_large.jpg) top center no-repeat; 
+   }
+
+   .itop img /* Interesting Topic Image */
+   {
+      height: 300px;
+   }
+
+   .topsections img /* Top Searches Image */
+   {
+      height: 285px;
+   }
+   .myModalContainer img
+   {
+      height : 350px;
+   }
+}
